@@ -32,7 +32,7 @@ public class LoginTests {
         driver.findElement(By.id("ctl00_MainContent_username")).sendKeys("Tester");
         driver.findElement(By.id("ctl00_MainContent_password")).sendKeys("test" + Keys.ENTER);
         Assert.assertEquals(driver.getTitle(), "Web Orders");
-        System.out.println("this is added github")
+        System.out.println("this is added github");
     }
 
 
